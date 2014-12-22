@@ -2,7 +2,6 @@
 #define VECTOR_H_
 
 #include <ostream>
-#include <stdexcept>
 
 template<typename Type, size_t Size>
 class Vector {
