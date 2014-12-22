@@ -2,8 +2,6 @@
 #define VECTOR_H_
 
 #include <ostream>
-#include <initializer_list>
-#include <cassert>
 #include <stdexcept>
 
 template<typename Type, size_t Size>
