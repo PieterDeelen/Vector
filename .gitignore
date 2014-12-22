@@ -1,2 +1,4 @@
-/Debug/
-/Release/
+/Linux.Debug/
+/Linux.Release/
+/Cygwin.Debug/
+/Cygwin.Release/
