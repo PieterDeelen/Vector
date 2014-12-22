@@ -1,7 +1,5 @@
 #include <Vector.h>
 #include <gtest/gtest.h>
-#include <ctime>
-#include <iostream>
 
 typedef Vector<double, 3> Vector3d;
 typedef Vector<double, 4> Vector4d;
@@ -58,23 +56,3 @@ TEST_F(Vector_test, testDot)
 	Vector3d w(4, 5, 6);
 	ASSERT_EQ(32.0, dot(v, w));
 }
-
-//TEST_F(Vector_test, testPlusPerformance)
-//{
-//	Vector3d v(0, 0, 0);
-//	const int iterations = 1000 * 1000 * 1000;
-//	for (int i = 0; i < iterations; i++) {
-//		v += Vector3d(1, 1, 1);
-//	}
-//	std::cout << v << std::endl;
-//}
-//
-//TEST_F(Vector_test, testPlusPerformance2)
-//{
-//	Vector4d v(0, 0, 0, 0);
-//	const int iterations = 1000 * 1000 * 1000;
-//	for (int i = 0; i < iterations; i++) {
-//		v += Vector4d(1, 1, 1, 1);
-//	}
-//	std::cout << v << std::endl;
-//}
